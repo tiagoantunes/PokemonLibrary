@@ -1,0 +1,13 @@
+//
+//  Debug.xcconfig
+//  PokemonLibrary
+//
+//  Created by Tiago Antunes on 02/03/2024.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+POKEAPI_SERVER_URL = pokeapi.co/api
+
+POKEAPI_KEY = 
