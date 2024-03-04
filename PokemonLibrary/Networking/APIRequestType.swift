@@ -18,7 +18,7 @@ protocol APIRequestType {
     var timeoutInterval: TimeInterval? { get }
     var headers: [String: String]? { get }
     var method: HTTPMethod { get }
-    func body() throws -> Data?
+    var body: Data? { get }
 }
 
 extension APIRequestType {
@@ -35,8 +35,8 @@ extension APIRequestType {
         ["accept": "application/json"]
     }
 
-    func body() -> Data? {
-        return Data()
+    var body: Data? {
+        return nil
     }
 }
 
@@ -52,7 +52,7 @@ extension APIRequestType {
         var request = URLRequest(url: components.url!)
         request.httpMethod = method.name
         request.allHTTPHeaderFields = headers
-        request.httpBody = try body()
+        request.httpBody = body
         return request
     }
 

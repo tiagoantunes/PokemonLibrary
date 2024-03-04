@@ -46,6 +46,7 @@
 		8684C9E42B950AC20028484C /* DetailsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8684C9E32B950AC20028484C /* DetailsViewModelTests.swift */; };
 		8684C9E72B9511150028484C /* GalleryViewUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8684C9E62B9511150028484C /* GalleryViewUITest.swift */; };
 		8684C9E92B9514870028484C /* DetailsViewUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8684C9E82B9514870028484C /* DetailsViewUITest.swift */; };
+		8684C9F42B956AEB0028484C /* WebhookRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8684C9F32B956AEB0028484C /* WebhookRequest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +109,7 @@
 		8684C9E32B950AC20028484C /* DetailsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModelTests.swift; sourceTree = "<group>"; };
 		8684C9E62B9511150028484C /* GalleryViewUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewUITest.swift; sourceTree = "<group>"; };
 		8684C9E82B9514870028484C /* DetailsViewUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewUITest.swift; sourceTree = "<group>"; };
+		8684C9F32B956AEB0028484C /* WebhookRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebhookRequest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -316,6 +318,7 @@
 				863C96EE2B9373AF00A3DAA7 /* PokemonDetailResponse.swift */,
 				863C970B2B939F0500A3DAA7 /* PokemonListRequest.swift */,
 				863C97092B939A3700A3DAA7 /* PokemonDetailRequest.swift */,
+				8684C9F32B956AEB0028484C /* WebhookRequest.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -507,6 +510,7 @@
 				863C970A2B939A3700A3DAA7 /* PokemonDetailRequest.swift in Sources */,
 				863D42F42B92E17B00480F2D /* GalleryView.swift in Sources */,
 				863D42FE2B92E1A500480F2D /* GalleryViewModel.swift in Sources */,
+				8684C9F42B956AEB0028484C /* WebhookRequest.swift in Sources */,
 				863D42E72B92E13500480F2D /* PokemonModel.swift in Sources */,
 				8684C9DA2B94E3B80028484C /* NetworkingError+Extensions.swift in Sources */,
 				863D43122B92F66200480F2D /* NamedURLResource.swift in Sources */,

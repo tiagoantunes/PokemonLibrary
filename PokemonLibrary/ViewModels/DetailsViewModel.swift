@@ -40,8 +40,21 @@ final class DetailsViewModel: ObservableObject {
                 }
             }, receiveValue: { [weak self] response in
                 self?.pokemonDetail = PokemonDetailModel(pokemonData: response)
-                
+
                 self?.dataIsLoading = false
+            })
+            .store(in: &cancellable)
+    }
+
+    func sendFavoriteElement() {
+        self.apiService.call(from: WebhookRequest(pokemon: pokemon))
+            .receive(on: RunLoop.main)
+            .sink(receiveCompletion: { result in
+                if case .failure = result {
+                    // failed webhook call
+                }
+            }, receiveValue: { _ in
+                // success webhook call
             })
             .store(in: &cancellable)
     }

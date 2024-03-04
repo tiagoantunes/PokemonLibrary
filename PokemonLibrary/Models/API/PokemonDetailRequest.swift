@@ -9,7 +9,7 @@ import Foundation
 
 struct PokemonDetailRequest: APIRequestType {
     typealias ModelType = PokemonDetailResponse
-    
+
     let id: Int
 
     var baseURL: String {

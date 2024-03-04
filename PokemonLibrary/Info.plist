@@ -6,5 +6,7 @@
 	<string>$(POKEAPI_KEY)</string>
 	<key>POKEAPI_SERVER_URL</key>
 	<string>$(POKEAPI_SERVER_URL)</string>
+	<key>WEBHOOK_URL</key>
+	<string>$(WEBHOOK_URL)</string>
 </dict>
 </plist>

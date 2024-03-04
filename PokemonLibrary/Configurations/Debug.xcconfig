@@ -11,3 +11,5 @@
 POKEAPI_SERVER_URL = pokeapi.co/api
 
 POKEAPI_KEY = 
+
+WEBHOOK_URL = webhook.site/2c1da91b-6a2f-4820-b964-d3d3d14b392c

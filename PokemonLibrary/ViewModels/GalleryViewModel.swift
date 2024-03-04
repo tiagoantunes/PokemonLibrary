@@ -18,7 +18,7 @@ final class GalleryViewModel: ObservableObject {
 
     enum Constants {
         static let itemsFromEndThreshold = 10
-        static let numberOfItemsInRequest = 10
+        static let numberOfItemsInRequest = 20
     }
 
     struct Output {
@@ -113,7 +113,7 @@ extension GalleryViewModel {
             }, receiveValue: { [weak self] response in
                 let pokemons = response.results.map { PokemonModel($0) }
 
-                self?.page += pokemons.count
+                self?.page += pokemons.count - 1
                 self?.pokemonList.append(contentsOf: pokemons)
                 self?.itemsLoadedCount = self?.pokemonList.count
                 self?.dataIsLoading = false

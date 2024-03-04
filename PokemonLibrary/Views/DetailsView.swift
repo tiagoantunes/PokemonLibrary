@@ -30,6 +30,7 @@ struct DetailsView: View {
         ZStack {
             pokemonDetails
                 .navigationBarTitle(viewModel.pokemon.name)
+                .navigationBarItems(trailing: favoriteButton)
                 .onAppear {
                     viewModel.requestItemDetail()
                 }
@@ -60,6 +61,14 @@ struct DetailsView: View {
             }
             .padding(.top, 18)
             .padding(.horizontal, 20)
+        }
+    }
+
+    private var favoriteButton: some View {
+        Button(action: {
+            viewModel.sendFavoriteElement()
+        }) {
+            Image(systemName: "star")
         }
     }
 }
