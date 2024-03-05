@@ -4,7 +4,7 @@ iOS application consuming POKEAPI, using SwiftUI, MVVM-C, Combine
 # Architecture
 MVVM-C + Combine architecture
 
-![](./PokemonLibrary/Resources/achitecture.png)
+![](./PokemonLibrary/Resources/architecture.png)
 
 ## Data Access Layer
 
