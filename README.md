@@ -37,16 +37,19 @@ The application works on iPhone and iPad devices, supporting portrait and landsc
 
 In this screen the user can view the pokemon list order by pokemon ID. The default layout consists in `List` with pokemon image, name and id.
 
-![](./PokemonLibrary/Resources/list_portrait.png)
 
-![](./PokemonLibrary/Resources/list_landescape.png)
+<img src="./PokemonLibrary/Resources/list_portrait.png" width="400">
+
+<img src="./PokemonLibrary/Resources/list_landscape.png" width="900">
+
 
 
 It's also possible to display the pokemon information in a `Grid` layout, with pokemon image and corresponding name.
 
-![](./PokemonLibrary/Resources/grid_portrait.png)
 
-![](./PokemonLibrary/Resources/grid_landescape.png)
+<img src="./PokemonLibrary/Resources/grid_portrait.png" width="400">
+
+<img src="./PokemonLibrary/Resources/grid_landscape.png" width="900">
 
 
 In both layouts it is also possible to order pokemon by `name` instead of the default order by `id`
@@ -55,7 +58,9 @@ In both layouts it is also possible to order pokemon by `name` instead of the de
 
 Screen with pokemon details like `name`, `image`, `id` and `type`. Also, we had a list with different characteristics of the corresponding pokemon
 
-![](./PokemonLibrary/Resources/details_portrait.png)
+<img src="./PokemonLibrary/Resources/details_portrait.png" width="400">
 
-![](./PokemonLibrary/Resources/details_landescape_1.png)
+<img src="./PokemonLibrary/Resources/details_landscape_1.png" width="900">
+
+<img src="./PokemonLibrary/Resources/details_landscape_2.png" width="900">
 
